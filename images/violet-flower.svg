@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 104" width="84" height="104">
+  <!-- Princeton Baking Bad — violet. Original artwork, transparent background. -->
+  <defs>
+    <radialGradient id="petalShade" cx="50%" cy="88%" r="80%">
+      <stop offset="0%"   stop-color="#6B2E9E"/>
+      <stop offset="45%"  stop-color="#A96FD8"/>
+      <stop offset="100%" stop-color="#CDA3EC"/>
+    </radialGradient>
+  </defs>
+
+  <!-- stem -->
+  <path d="M42 60c2 12-3 20-2 40" fill="none" stroke="#4C8A3A"
+        stroke-width="5" stroke-linecap="round"/>
+  <!-- leaf -->
+  <path d="M40 84c-11 1-17-6-17-13 9-2 16 4 17 13z"
+        fill="#5FA346" stroke="#3B7A2C" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <g stroke="#5B2585" stroke-width="2.6" stroke-linejoin="round">
+    <!-- two upper petals -->
+    <ellipse cx="25" cy="26" rx="14" ry="17" fill="url(#petalShade)" transform="rotate(-24 25 26)"/>
+    <ellipse cx="59" cy="26" rx="14" ry="17" fill="url(#petalShade)" transform="rotate(24 59 26)"/>
+    <!-- two side petals -->
+    <ellipse cx="18" cy="50" rx="16" ry="13" fill="url(#petalShade)" transform="rotate(-8 18 50)"/>
+    <ellipse cx="66" cy="50" rx="16" ry="13" fill="url(#petalShade)" transform="rotate(8 66 50)"/>
+    <!-- lower lip petal -->
+    <ellipse cx="42" cy="60" rx="17" ry="14" fill="url(#petalShade)"/>
+  </g>
+
+  <!-- pale throat + nectar guides -->
+  <ellipse cx="42" cy="45" rx="11" ry="10" fill="#F3E6FB" opacity=".92"/>
+  <g stroke="#7B39B0" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M42 48v-8M36 50l-4-6M48 50l4-6"/>
+  </g>
+  <circle cx="42" cy="44" r="4" fill="#F6C64B" stroke="#C99320" stroke-width="1.8"/>
+</svg>

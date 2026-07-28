@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 118" width="120" height="118">
+  <!-- Princeton Baking Bad — chef hat. Original artwork, transparent background.
+       The swaying animation lives in styles.css (.hat / @keyframes sway). -->
+  <g stroke="#5E3D24" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- puffy toque: three overlapping lobes -->
+    <path fill="#FFFDF8" d="
+      M30 72
+      C12 70 4 52 16 40
+      C10 20 30 6 46 16
+      C54 2 74 3 80 18
+      C100 12 116 30 106 46
+      C116 60 108 74 90 72
+      Z"/>
+    <!-- band -->
+    <path fill="#F9DDD2" d="M28 70h64a5 5 0 0 1 5 5v20a7 7 0 0 1-7 7H30a7 7 0 0 1-7-7V75a5 5 0 0 1 5-5z"/>
+    <!-- band pleats -->
+    <g stroke-width="3.4" opacity=".5" stroke-linecap="round">
+      <path d="M45 76v22M60 76v22M75 76v22"/>
+    </g>
+  </g>
+</svg>

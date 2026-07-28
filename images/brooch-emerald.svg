@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 108" width="80" height="108">
+  <!-- Princeton Baking Bad - emerald brooch. Original artwork, transparent background. -->
+  <defs>
+    <radialGradient id="gemFace" cx="38%" cy="30%" r="72%">
+      <stop offset="0%"   stop-color="#8FF3C4"/>
+      <stop offset="45%"  stop-color="#22AE76"/>
+      <stop offset="100%" stop-color="#085236"/>
+    </radialGradient>
+    <linearGradient id="goldFrame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#F9E09B"/>
+      <stop offset="50%"  stop-color="#D9A63F"/>
+      <stop offset="100%" stop-color="#A06D1B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- scalloped gold frame -->
+  <path d="M40.00 3.00 C42.29 3.00 44.03 11.72 46.86 12.68 C49.69 13.64 55.02 7.27 57.00 8.76 C58.98 10.25 56.66 18.98 58.74 21.60 C60.81 24.23 68.30 21.92 69.44 24.50 C70.59 27.08 64.84 33.49 65.60 37.07 C66.36 40.65 74.00 43.02 74.00 46.00 C74.00 48.98 66.36 51.35 65.60 54.93 C64.84 58.51 70.59 64.92 69.44 67.50 C68.30 70.08 60.81 67.77 58.74 70.40 C56.66 73.02 58.98 81.75 57.00 83.24 C55.02 84.73 49.69 78.36 46.86 79.32 C44.03 80.28 42.29 89.00 40.00 89.00 C37.71 89.00 35.97 80.28 33.14 79.32 C30.31 78.36 24.98 84.73 23.00 83.24 C21.02 81.75 23.34 73.02 21.26 70.40 C19.19 67.77 11.70 70.08 10.56 67.50 C9.41 64.92 15.16 58.51 14.40 54.93 C13.64 51.35 6.00 48.98 6.00 46.00 C6.00 43.02 13.64 40.65 14.40 37.07 C15.16 33.49 9.41 27.08 10.56 24.50 C11.70 21.92 19.19 24.23 21.26 21.60 C23.34 18.98 21.02 10.25 23.00 8.76 C24.98 7.27 30.31 13.64 33.14 12.68 C35.97 11.72 37.71 3.00 40.00 3.00 Z" fill="url(#goldFrame)" stroke="#7A5214" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- inner gold bezel -->
+  <ellipse cx="40" cy="46" rx="24" ry="32" fill="url(#goldFrame)" stroke="#7A5214" stroke-width="2.2"/>
+
+  <!-- the emerald -->
+  <ellipse cx="40" cy="46" rx="19.5" ry="27.5" fill="url(#gemFace)" stroke="#08492F" stroke-width="2"/>
+
+  <!-- swirl inside the stone -->
+  <path d="M40 30c-9 3-13 12-9 19 3 6 12 7 16 1 3-5 0-11-6-11-4 0-6 4-4 7"
+        fill="none" stroke="#B6FBD9" stroke-width="2.6" stroke-linecap="round" opacity=".7"/>
+
+  <!-- highlight -->
+  <ellipse cx="32" cy="33" rx="5.5" ry="8.5" fill="#FFFFFF" opacity=".45"
+           transform="rotate(-22 32 33)"/>
+
+  <!-- pendant drop -->
+  <path d="M40 84c4.5 0 7.5 4 7.5 8.5S44.5 102 40 102s-7.5-4.5-7.5-9S35.5 84 40 84z"
+        fill="url(#gemFace)" stroke="#7A5214" stroke-width="2.4"/>
+</svg>
